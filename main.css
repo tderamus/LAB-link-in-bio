@@ -1,3 +1,53 @@
 body {
-  background-color: blanchedalmond;
+  background-color: darkgrey;
+  max-width: 700px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+}
+
+.grid-wrapper {
+  padding-bottom: 100px;
+}
+
+.d-grid gap-2 {
+  max-width: 400px;
+ }
+
+.btn {
+  background-color: azure;
+  display: flow;
+  width: 100%;
+  color: blue;
+}
+
+ img {
+  height: 2em;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+#bio-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#bio-pic > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px 15px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
 }
